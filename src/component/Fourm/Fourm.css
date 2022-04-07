@@ -1,0 +1,88 @@
+.form-container{
+    box-shadow: 2px 2px 10px gray;
+    width: 50%;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.form-element{
+    padding: 2rem;
+}
+.form-element span{
+    color: rgb(246, 8, 8);
+    margin-top: -4px;
+}
+.form-element input{
+    width: 300px;;
+    font-size: 17px;
+    padding: 10px;
+     text-align: start;
+     border-radius: 5px;
+     border: none;
+     outline:none;
+     box-shadow: 2px 2px 10px rgb(189, 188, 188);
+}
+.form-element p{
+    font-size: 20px;
+    text-align: start;
+    color: black;
+}
+
+.form-element p{
+    margin: 0;
+}
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-one{
+    background-color: rgb(42, 180, 255);
+    color: black;
+}
+.btn-two{
+    background-color: rgb(255, 6, 106);
+    color: rgb(255, 255, 255);
+}
+#extra-p{
+    text-align: center;
+    margin: 10px;
+}
+.img-sec img{
+    border-radius: 50%;
+    height: 65px;
+}
+.text-sec p{
+    font-size: 15px;
+}
+.others-auth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gainsboro;
+    width: 40%;
+    margin: 10px auto;
+    padding: 0.6rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(242, 241, 241);
+}
+
+.others-auth:hover{
+    background-color: rgb(240, 236, 236);
+    cursor: pointer;
+}
+
+.users-info{
+    box-shadow: 2px 2px 10px gray;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.users-info img{
+    border-radius: 50%;
+}
